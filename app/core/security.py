@@ -42,7 +42,7 @@ def create_access_token(
 
     encoded_jwt = jwt.encode(
         payload,
-        settings.jwt_secret_key,
+        settings.jwt_secret,
         algorithm=algorithm,
     )
     return encoded_jwt
@@ -55,6 +55,6 @@ def decode_access_token(token: str) -> Dict[str, Any]:
     """
     return jwt.decode(
         token,
-        settings.jwt_secret_key,
+        settings.jwt_secret,
         algorithms=[algorithm],
     )

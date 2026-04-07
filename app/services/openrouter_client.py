@@ -49,6 +49,7 @@ class OpenRouterClient:
         if response.status_code >= 400:
             try:
                 data = response.json()
+                print(f"DEBUG OpenRouter error: {response.status_code} {data}")
                 msg = (
                     data.get("error", {}).get("message")
                     or data.get("message")

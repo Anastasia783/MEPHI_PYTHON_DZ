@@ -16,6 +16,7 @@ class Settings(BaseSettings):
     openrouter_model: str
     openrouter_site_url: str
     openrouter_app_name: str
+    openrouter_timeout: int = 30
 
     model_config = SettingsConfigDict(
         env_file=".env",
