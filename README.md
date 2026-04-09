@@ -42,7 +42,7 @@ access_token_expire_minutes=60
 
 sqlite_path=./app.db
 
-openrouter_api_key=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
+openrouter_api_key=sk-or-v1-ваш_ключ_здесь
 openrouter_base_url=https://openrouter.ai/api/v1
 openrouter_model=mistralai/mistral-7b-instruct:free
 openrouter_site_url=https://example.com
@@ -102,13 +102,12 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 6. Теперь все защищённые эндпоинты доступны
 
 ## Скриншоты работы API в screen
-
-regisration full.png
-login.png
-authorize.png
-get auth me.png
-Chat_post.png
-get_chat_history.png
-delete_chat_history.png
- get_chat_history_after_delete.png
+<img width="1410" height="1027" alt="regisration full" src="https://github.com/user-attachments/assets/b3b40d68-7f6c-4528-90f5-689c4a57f8f1" />
+<img width="1207" height="1023" alt="login" src="https://github.com/user-attachments/assets/7dc54f97-d20d-458b-a906-f48e485015dc" />
+<img width="1253" height="933" alt="get_chat_history_after_delete" src="https://github.com/user-attachments/assets/355112b0-d74a-44b3-9149-a08f5631d611" />
+<img width="1312" height="955" alt="get_chat_history" src="https://github.com/user-attachments/assets/d485a4f1-5ff2-4738-a6aa-d384afe5b6d9" />
+<img width="1267" height="997" alt="get auth me" src="https://github.com/user-attachments/assets/db047831-0e87-4388-8777-630caf512e28" />
+<img width="1328" height="882" alt="delete_chat_history" src="https://github.com/user-attachments/assets/2d08e05a-0526-41a5-97a7-2944bb540855" />
+<img width="1287" height="932" alt="Chat_post" src="https://github.com/user-attachments/assets/7a2d20fb-252e-4c97-9c0e-6088c7a0518e" />
+<img width="1138" height="842" alt="authorize" src="https://github.com/user-attachments/assets/863e6751-d587-479c-81d2-96b70218a8e0" />
 
