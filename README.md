@@ -42,7 +42,7 @@ access_token_expire_minutes=60
 
 sqlite_path=./app.db
 
-openrouter_api_key=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
+openrouter_api_key=sk-or-v1-ваш_ключ_здесь
 openrouter_base_url=https://openrouter.ai/api/v1
 openrouter_model=mistralai/mistral-7b-instruct:free
 openrouter_site_url=https://example.com
